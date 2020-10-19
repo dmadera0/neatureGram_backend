@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+User.create(name:"Daniel", password:"madera")
+
+Post.create(title:"Snow Caped Shiprock, NM", image:"https://c4.wallpaperflare.com/wallpaper/323/346/517/mountains-snow-caps-desert-shiprock-wallpaper-preview.jpg", descripition:"shiprock in the winter",user_id: 1)
